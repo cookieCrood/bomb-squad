@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bomb_squad",
+  "version": "1.0.0",
+  "name": "Bomb Squad",
+  "description": "Utility mod for disarming and detecting crash items on Multiplayer Minecraft Servers",
+  "authors": [
+    "cookie_crood"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cookieCrood/bomb-squad",
+    "sources": "https://github.com/cookieCrood/bomb-squad"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.bomb_squad.BombSquadClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "bomb_squad.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": ">=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
