@@ -4,4 +4,4 @@
 - Latest version: 1.0.0
 
 ## Features
-- Alerts when a players are holding an item with a malformed **item model**
+- Alerts when a player is holding an item with a malformed **item model**
